@@ -40,7 +40,11 @@ with(kRdata, table(Sex, result))
 
 `
 
-  
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
+
+```  
 
 
 
