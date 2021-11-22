@@ -48,7 +48,7 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 
 
 
-
+The first chart shows the frequency between female and male who are alive and the frequency from passing. The males and the females frequency of being alive are a lot greater than those who are deceased. The second chart demonstrates the percentage between female/males that are and those who have passed. It shows that females are more capable of staying alive rather then males.
 
   
 ## Numerical results
