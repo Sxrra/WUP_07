@@ -54,6 +54,14 @@ The first chart shows the frequency between female and male who are alive and th
 ## Numerical results
 
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This table represents that 98.7% of females have survived covid, leaving 1.4% of them dead. For the males, it leaves at 97% of surving covid, leaving 3% of them dead.
+
 ## Inferential results 
 
 
